@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --clr-dark: #1E1E1E;
+  --clr-light: white;
+}
+@layer base{
+  .app{
+    background-color: var(--clr-light);
+    color: var(--clr-dark);
+  }
+}
+@layer components{
+
+}
+@layer utilities{
+  .hide{
+    display: none;
+  }
+}
