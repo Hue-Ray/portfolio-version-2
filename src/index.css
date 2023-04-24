@@ -14,7 +14,11 @@
   }
 }
 @layer components{
-
+  .bg-stroke{
+    background: url(./assets/bg-stroke.png);
+    background-repeat: no-repeat;
+    background-size:auto;
+  }
 }
 @layer utilities{
   .hide{

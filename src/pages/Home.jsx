@@ -7,20 +7,21 @@ import Github from '../assets/github.png'
 
 function Home() {
   return (
-    <div className='p-4 flex-col justify-center items-center w-fit h-[100vh] m-auto text-center'>
+    <div className='home p-4 flex-col justify-center items-center w-fit h-[100vh] m-auto text-center'>
      <div className='h-[200px] w-[200px] m-auto'>
      <img src={ProfilePics} alt=''></img>
      </div>
 
+     <div className=''>
      <div>
-        <p className='text-lg text-slate-600'>Hi!</p>
-        <p className='text-xl'>I'm Adepoju Oluwatobi. I'm a</p>
-        <p className='text-4xl font-bold text-slate-600'>Frontend</p>
-        <p className='text-5xl font-bold text-slate-800'>Developer</p>
+        <p className='text-lg text-slate-600 md:text-xl'>Hi!</p>
+        <p className='text-xl text-slate-400 md:text2xl'>I'm Adepoju Oluwatobi. I'm a</p>
+        <p className='text-3xl font-bold text-slate-500 md:text4xl'>Frontend</p>
+        <p className='text-4xl font-bold text-slate-600 md:text-5xl'>Developer</p>
      </div>
 
      <div>
-        <div className='flex justify-evenly items-center mt-4 w-[280px] h-[65px] border box-border border-slate-400 rounded-[20px]'>
+        <div className='flex justify-evenly items-center mt-4 w-[280px] h-[65px] border box-border border-slate-400 rounded-[20px] lg:m-auto lg:mt-4 lg:mb-2'>
           <div>
             <img src={Instagram} alt=''></img>
           </div>
@@ -35,7 +36,8 @@ function Home() {
           </div>
         </div>
      </div>
-     <button className='bg-black text-white p-2 rounded-lg mt-2'>Download Resume</button>
+     <button className='bg-black text-white p-2 rounded-lg mt-2 px-4'>Download Resume</button>
+     </div>
     </div>
   )
 }
