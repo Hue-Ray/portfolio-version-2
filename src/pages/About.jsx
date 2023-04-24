@@ -6,8 +6,8 @@ function About() {
     <div>
       <Header />
       <div className='p-4'>
-        <h1 className='text-2xl'>About Me</h1>
-        <div className='shadow'>
+        <h1 className='text-2xl ml-4 text-neutral-400 font-extrabold'>About Me</h1>
+        <div className='shadow-xl '>
           <p className='text-xs p-4'>
           The passion for developing website and
            user friendly interface led me to the 
