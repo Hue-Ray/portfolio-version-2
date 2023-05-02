@@ -3,7 +3,7 @@ import ProfilePics from '../assets/profile-picture.png'
 import Instagram from '../assets/insta.png'
 import Linkedin from '../assets/linkedin.png'
 import Telegram from '../assets/telegram.png'
-import Github from '../assets/github.png'
+import Github from '../assets/github.png';
 
 function Home() {
   return (
