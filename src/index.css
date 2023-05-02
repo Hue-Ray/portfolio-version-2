@@ -10,7 +10,7 @@
   .app{
     background-color: var(--clr-light);
     color: var(--clr-dark);
-    font-family: 'Neucha', cursive;
+    font-family: 'kite one';
   }
 }
 @layer components{
@@ -23,5 +23,8 @@
 @layer utilities{
   .hide{
     display: none;
+  }
+  .container{
+    @apply p-4 
   }
 }

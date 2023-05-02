@@ -1,14 +1,13 @@
 import React from 'react'
-import Header from '../components/Header'
+import TechStack from '../components/TechStack'
 
 function About() {
   return (
     <div>
-      <Header />
-      <div className='p-4'>
-        <h1 className='text-2xl ml-4 text-neutral-400 font-extrabold'>About Me</h1>
-        <div className='shadow-xl '>
-          <p className='text-xs p-4'>
+      <div className='container'>
+        <h1 className='text-2xl font-extrabold md:text-3xl lg:text-4xl'>About Me</h1>
+        <div className='container shadow-xl rounded-lg'>
+          <p className='text-xs md:text-sm lg:text-lg'>
           The passion for developing website and
            user friendly interface led me to the 
           study of front end development in which 
@@ -25,10 +24,10 @@ function About() {
           With a teaching experience of 8 years 
           plus, I can say i have impacted more than
            i could have ever wished for. 
-
           </p>
         </div>
       </div>
+      <TechStack />
     </div>
   )
 }
