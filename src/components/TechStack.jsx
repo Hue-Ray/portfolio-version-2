@@ -14,9 +14,9 @@ import GitLogo from '../assets/git-logo.svg';
 function TechStack() {
   return (
     <div className='container'>
-      <p className='text-2xl font-bold pb-4'>Tech Stack</p>
-
-    <div className='pb-8'>
+      <p className='heading pb-4'>Tech Stack</p>
+      <div className=''>
+      <div className='pb-8'>
             <p className='text-sm font-bold'>Technologies</p>
           <div className='flex justify-evenly shadow-lg p-4 rounded-lg'>
             <img src={ReactLogo} alt=''></img>
@@ -42,9 +42,8 @@ function TechStack() {
             <img src={GitHubLogo} alt=''></img>
             <img src={GitLogo} alt=''></img>
           </div>  
-    </div>
-
-    
+    </div>  
+      </div> 
     </div>
   )
 }

@@ -26,13 +26,19 @@ function Home() {
             <img src={Instagram} alt=''></img>
           </div>
           <div>
+            <a href='https://www.linkedin.com/in/oluwatobi-adepoju-4a242898/'>
             <img src={Linkedin} alt=''></img>
+            </a>
           </div>
           <div>
-            <img src={Telegram} alt=''></img>
+           <a href=' https://t.me/Tobi_Forex'>
+           <img src={Telegram} alt=''></img>
+           </a>
           </div>
           <div>
-            <img src={Github} alt=''></img>
+           <a href='https://github.com/Hue-Ray'>
+           <img src={Github} alt=''></img>
+           </a>
           </div>
         </div>
      </div>
