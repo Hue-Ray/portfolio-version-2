@@ -12,6 +12,9 @@
     color: var(--clr-dark);
     font-family: 'kite one';
   }
+  img{
+    user-select: none;
+  }
 }
 @layer components{
   .bg-stroke{
@@ -31,12 +34,13 @@
     @apply text-2xl font-extrabold md:text-3xl lg:text-4xl py-4
   }
   .sub-heading{
-    @apply text-lg font-bold md:text-3xl lg:text-4xl py-2
+    @apply text-lg font-bold md:text-3xl lg:text-4xl 
   }
   .sup-heading{
     @apply text-sm font-bold md:text-xl lg:text-2xl py-2
   }
   .description{
-    @apply text-xs md:text-sm lg:text-xl xl:text-2xl
+    @apply text-xs md:text-sm lg:text-lg xl:text-xl opacity-50
   }
+  
 }
