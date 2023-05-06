@@ -40,7 +40,7 @@
     @apply text-sm font-bold md:text-xl lg:text-2xl py-2
   }
   .description{
-    @apply text-xs md:text-sm lg:text-lg xl:text-xl opacity-50
+    @apply text-xs md:text-sm lg:text-sm xl:text-xl opacity-70
   }
   
 }
