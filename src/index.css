@@ -22,6 +22,9 @@
     background-repeat: no-repeat;
     background-size:auto;
   }
+  .project img{
+    @apply md:w-56
+  }
 }
 @layer utilities{
   .hide{

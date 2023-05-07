@@ -1,9 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import ProfilePics from '../assets/profile-picture.png'
-import Instagram from '../assets/insta.png'
-import Linkedin from '../assets/linkedin.png'
-import Telegram from '../assets/telegram.png'
-import Github from '../assets/github.png';
+import Socials from '../components/Socials'
 
 function Home() {
   return (
@@ -20,29 +18,11 @@ function Home() {
         <p className='text-4xl font-bold  md:text-5xl'>Developer</p>
      </div>
 
-     <div>
-        <div className='flex justify-evenly items-center mt-4 w-[280px] h-[65px] border box-border border-slate-400 rounded-[20px] lg:m-auto lg:mt-4 lg:mb-2'>
-          <div>
-            <img src={Instagram} alt=''></img>
-          </div>
-          <div>
-            <a href='https://www.linkedin.com/in/oluwatobi-adepoju-4a242898/'>
-            <img src={Linkedin} alt=''></img>
-            </a>
-          </div>
-          <div>
-           <a href=' https://t.me/Tobi_Forex'>
-           <img src={Telegram} alt=''></img>
-           </a>
-          </div>
-          <div>
-           <a href='https://github.com/Hue-Ray'>
-           <img src={Github} alt=''></img>
-           </a>
-          </div>
-        </div>
-     </div>
-     <button className='bg-black text-white p-2 rounded-lg mt-2 px-4'>Download Resume</button>
+    <Socials />
+
+    <Link to = "/resume">
+    <button className='bg-black text-white p-2 rounded-lg mt-2 px-4'>Download Resume</button>
+    </Link>
      </div>
     </div>
   )

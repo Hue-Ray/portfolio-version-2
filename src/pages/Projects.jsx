@@ -2,10 +2,11 @@ import React from 'react';
 import NetflixCloneImg from '../assets/netflix-clone-image.png';
 import HeritageImg from '../assets/3heritage-img.png';
 import BabySittingImg from '../assets/babysiting-img.png';
+import PortfolioV1 from '../assets/portfoliov-1.png';
 
 function Projects() {
   return (
-    <div className='container m-auto'>
+    <div className='project container m-auto'>
       <h1 className='heading'>Projects</h1>
       <div className='projects pb-10 md:flex justify-evenly w-[100%] gap-5'>
        <div className=''>
@@ -29,6 +30,36 @@ function Projects() {
       <button className='btn bg-black p-2 px-4 mr-4 rounded-lg text-white font-light text-xs md:text-sm lg:text-lg hover:bg-white hover:border box-border border-black hover:text-black'>View Code</button>
       </a>
        <a href='https://netflix-project-dusky.vercel.app/'>
+       <button className='btn border box-border border-black p-2 px-4 rounded-lg text-black font-light text-xs md:text-sm lg:text-lg hover:bg-black hover:text-white transition-all ease-in-out'>View Demo</button> 
+       </a>
+       </div>
+      </div>
+      </div>
+
+      <div className='projects pb-10 md:flex justify-evenly w-[100%] gap-5'>
+       <div className=''>
+       <img className='rounded-xl w-auto' src={PortfolioV1} alt="" />
+       </div>
+      <div className=''>
+      <div className=''>
+       <p className='sub-heading'>My Portfolio version one</p>
+        <p className='description'>
+         This is a portfolio website i develoved for myself to show case my skills and works. This project took me 3 days to finish. The main functionality of this website is the light and dark theme toggle which was achived by using JavaScript.
+        </p>
+       </div>
+        <div>
+        <p className='sup-heading'>Technologies</p>
+        <ul className='description'>
+          <li>Html</li>
+          <li>Vanila CSS</li>
+          <li>JavaSscript</li>
+        </ul>
+        </div>
+        <div className='mt-4'>
+      <a href='https://github.com/Hue-Ray/My-Portfolio-Vite'>
+      <button className='btn bg-black p-2 px-4 mr-4 rounded-lg text-white font-light text-xs md:text-sm lg:text-lg hover:bg-white hover:border box-border border-black hover:text-black'>View Code</button>
+      </a>
+       <a href='https://my-portfolio-vite-coral.vercel.app/'>
        <button className='btn border box-border border-black p-2 px-4 rounded-lg text-black font-light text-xs md:text-sm lg:text-lg hover:bg-black hover:text-white transition-all ease-in-out'>View Demo</button> 
        </a>
        </div>
